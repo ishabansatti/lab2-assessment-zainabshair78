@@ -18,25 +18,18 @@ float getFloatValue() {
 char getCharValue() {
     // Declare a variable var_char of type character and set its value to A.
     //return var_char;
-    char var_char = A;
+    char var_char = 'A';
     return var_char;
 }
 
 int convertFloatToInt(float value) {
     // convert value to int.
-    int value=static cast <float>(int value);
-    return value;
+    return static_cast<int>(value);
 }
-
-/*
-Convert Fahrenheit to Celsius and store your answer in a variable celsius.
-
-Formula:
-    Celsius = (Fahrenheit - 32) * 5 / 9
-*/
-celsius = (fahrenheit -32)*5/9
+    
 float fahrenheitToCelsius(float fahrenheit) {
-    //return celsius;
+    float celsius = (fahrenheit -32)*9/5;
     return celsius;
+}
 
 }
